@@ -2,7 +2,7 @@
 
 :root {
     --border-radius-grids: 15px;
-    --box-shadow-grids: 1px 1px 10px black;
+    --box-shadow-grids: 0px 0px 7px black;
 }
 
 .wrapper {
@@ -91,11 +91,11 @@ a:hover {
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
-    line-height: 1.5em;
+    line-height: 1.7em;
 }
 
 .main > p {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .aside {
@@ -114,6 +114,10 @@ a:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.aside-wrapper > p {
+    font-size: 1.3em;
 }
 
 .footer {
