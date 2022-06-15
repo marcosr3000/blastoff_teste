@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: block;
+    width: 100%;
+    height: 1000px;
+    text-align: center;
+}
+
+.info-wrapper {
+    display: inline-block;
+    width: 66%;
+    height: 1000px;
+}
+
+.video-wrapper {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+header {
+    background-image: url('assets/banner-bigger.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 5px;
+}
+
+main {
+    display: block;
+    width: 99.6%;
+    height: 570px;
+    background-color: white;
+    margin-bottom: 5px;
+    /* border: 1px solid #163763; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main h1 {
+    font-size: 1.4em;
+    text-align: left;
+    margin: 0px 20px 40px 20px;
+    background-image: linear-gradient(to right, #732d6e60, white);
+    color: #732D6E;
+}
+
+main p {
+    font-size: 1.2em;
+    text-align: justify;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 1.5em;
+}
+
+.text-source {
+    font-size: 0.9em;
+    margin-top: 40px;
+}
+
+a, a:active, a:visited {
+    text-decoration: underline;
+    color: black;
+}
+
+.video {
+    display: inline-block;
+    width: 49.5%;
+    height: 400px;
+    background-color: #A67544;
+    border: 1px solid #163763;
+    position: relative;
+}
+
+.video iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+aside {
+    background-image: url('assets/poster.webp');
+    background-size: cover;
+    background-position: center center;
+    display: inline-block;
+    width: 33%;
+    height: 1000px;
+    /* border: 1px solid #163763; */
+}
+
+@media screen and (max-width: 760px) {
+    header {
+        height: 200px;
+    }
+    
+    .info-wrapper {
+        width: 100%;
+    }
+    
+    .video-wrapper {
+        width: 100%;
+    }
+
+    main {
+        width: 99.6%;
+        height: 800px;
+    }
+
+    main h1 {
+        font-size: 1.2em;
+        margin-top: 20px;
+    }
+
+    main p {
+        font-size: 1em;
+    }
+
+    .video {
+        width: 48.5%;
+        height: 150px;
+    }
+
+    aside {
+        width: 100%;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 1050px) and (min-width: 759px) {
+    header {
+        height: 200px;
+    }
+    
+    .info-wrapper {
+        width: 100%;
+    }
+    
+    .video-wrapper {
+        width: 100%;
+    }
+
+    main {
+        width: 99.6%;
+        height: 800px;
+    }
+
+    main h1 {
+        font-size: 1.8em;
+        margin-top: 20px;
+    }
+
+    main p {
+        font-size: 1.4em;
+    }
+
+    .video {
+        width: 48.5%;
+        height: 150px;
+    }
+
+    aside {
+        width: 100%;
+        height: 150px;
+    }
+}
